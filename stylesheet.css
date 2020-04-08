@@ -1,0 +1,239 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+header {
+  background-color:rgba(34, 49, 52, 0.9);
+  margin:0px;
+  width:100%;
+  height:100px;
+  z-index:10;
+  position: fixed;
+  top: 0;
+}
+header .container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+  height:100px;
+}
+
+.header-left .logo {
+  height:100px;
+}
+
+.header-right {
+  display:flex;
+}
+header ul {
+  margin-right:60px;
+}
+
+.header-right li {
+  list-style: none;
+  margin-right: 10px;
+  font-size:40px;
+  margin-right:50px;
+}
+
+.header-right li:hover {
+  opacity: 0.6;
+}
+
+.header-right a {
+  color:white;
+}
+
+.main-container {
+  background-image:url(./images/IMG_0106.PNG);
+  background-size:cover;
+  height:1300px;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.SNS {
+  display: flex;
+  list-style: none;
+  margin-top:1200px;
+  font-size:30px;
+}
+
+.SNS a {
+  text-decoration: none ;
+}
+
+.SNS .btn {
+  padding:2px 10px;
+  border-radius: 5px;
+  color:white;
+  box-shadow: 0 7px #333;
+}
+
+.SNS .btn:active {
+  box-shadow: none;
+  position: relative;
+  top:7px;
+}
+
+.twitter {
+  margin-right: 100px;
+  background-color: #55acee;
+}
+.Instagram {
+  background-color: burlywood;
+}
+
+.SNS .btn i {
+  padding-right:10px;
+}
+
+.introduction-main {
+  background-color: lemonchiffon;
+  height:850px;
+}
+
+.introduction-container {
+  padding-top: 200px;
+}
+
+.introduction-container .title {
+  font-family: "HGP行書体";
+  font-size:120px;
+  text-align: center;
+  margin-bottom:100px;
+}
+
+.introduction-container .sentence {
+  text-align: center;
+  font-size: 50px;
+  font-family: "HGP行書体";
+  margin-bottom: 70px;
+  display:none;
+}
+
+.menus-main {
+  background-image: url(./images/IMG_3227.JPG);
+}
+.menus-container {
+  padding-top:150px;
+}
+.menus-container h1 {
+  font-family: "HGP行書体";
+  text-align: center;
+  font-size: 120px;
+  margin-bottom:190px;
+}
+.menu-list {
+  border:2px solid gray;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display:flex;
+  background-color: khaki;
+}
+
+.menu-left {
+  height:100%;
+  width:120px;
+}
+
+.menu-left img {
+  width:100%;
+  margin:5px;
+  padding-top: 5px;
+}
+
+.menu-right a {
+  font-family: "HGP行書体";
+  text-decoration: none;
+  font-size:40px;
+  margin-left: 30px;
+  line-height: 102px;
+}
+
+.menu-right p {
+  font-family: "HGP行書体";
+  text-decoration: none;
+  font-size:40px;
+  margin-left: 30px;
+  line-height: 102px;
+}
+
+.menu-main {
+  background-color: lemonchiffon;
+}
+.menu-container {
+  padding-top: 200px;
+  margin-bottom: 0;
+}
+
+.menu-name  {
+  font-size: 40px;
+  font-family: "HGP行書体";
+}
+
+.menu-price {
+  font-size: 50px;
+}
+
+.menu-title {
+  display:flex;
+  justify-content: space-around;
+}
+
+.menu-container .message {
+  margin:65px 10px;
+  font-size:36px;
+  font-family: "HGP行書体";
+  text-align: center;
+}
+
+.ingredients-wrapper .menu-ingredient {
+  margin:20px 45px;
+  font-size: 20px;
+}
+
+.ingredients-wrapper .ingredients {
+  margin:20px 45px;
+  font-size: 20px;
+}
+
+.processes-wrapper .menu-process {
+  margin:20px 45px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.processes-wrapper .processes {
+  margin-top:20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-bottom: 45px;
+  font-size: 20px; 
+}
+
+.processes-wrapper .processes p {
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  height:100px;
+  width:100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  float:right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
